@@ -77,6 +77,7 @@
 
 	sudo password user(xyz) - change the password of the user cmd
 	sudo usermod -l abc(new) xyz(current) - chage the user name cmd (-l stands for login name)
+	sudo userdel abc
 	
 	
 9. Adde user should be able to access using own private key:
@@ -91,6 +92,25 @@
 	paste the content of the public key in this authorized key so that will be used along with private key.
 	chmod 600 ~/.ssh/authorized_keys (give the access to xyz exicution permision)
 	cat id_*** copy and save it as private key
+
+
+10. Group Management :
+
+	When we create user by default group is created of that user
+
+	sudo groupadd abc -create
+	sudo groupmod abc - modify
+	sudo usermod -aG group $user - append the user to group 
+	sudo groupdel abc - delete
+
+	to manage the Group :
+
+	example:
+
+		basically once we install docker docker group also created but only root user have permison to excecute the docker cmds so 
+		we are suppose to append users to docker groups so that respective user can run docker cmds
+
+		sudo usermod -aG docker $user 
 
 
 	
