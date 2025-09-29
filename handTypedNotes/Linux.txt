@@ -1,0 +1,78 @@
+1. Why Linux?
+	Pros:
+		Open source.
+		Secure.
+	Cons:
+		Not Ease of use.
+
+2. Linux Architecture:
+	
+	layer of Linux Architecture
+		
+		1. User Application : example-> note++, nudi, installed application for user.
+		2. System Utilities : example-> Copy, move, open. inbuilt utils for small operartions
+		3. System Libraries : example-> Env libraries of the respective lang, example, C programming libraries like Print and all.
+		4. kernal			: example-> main operator, which maintain process, memory, network etc management handles the connection b/w user app, sys utilis &
+										sys libraries to next layer that is Hardware and decide how much cpu n memo.
+		5. Hardware			: example-> Ram as process, hardisk as memory and network and other things are handles here in the hardware based on above layers
+		
+
+3. Private and Public Key to access the Linux (Secure way of access)
+	
+	Why? 
+		username and password method is not secure for multi users so we are going to use private and public key
+	
+	Public Key:
+		kept and stored in the linux machine.
+	privae key: 
+		the private key is with respective user that can be able to access the linux as a user.
+
+4. Ports:
+	are the networkal way of accessing/expose the linux machine.
+	
+	Linux have the Ip adrres to access/expose 
+		public Ip 	: 	outside the Linux
+		private Ip 	: 	Inside the Linux
+	
+	HERE BASICALLY LINUX ACCES/EXPOSE WLL BE SECURED BASED ON THE "INBOUND AND OUTBOUND " RULES
+	
+	Outbound rules	: 0.0.0.0/0
+	Inbound rules 	: 22-ssh, 80-http ,443-https, 3000 to 10000- ,ost of the devops work : These are the port
+	Source 			: From where the access is allowed ? for ex : vpn like that
+	
+	Access :
+		Public_IP.Ports : To access the applications installed in the linux.
+	expose :
+		Linux will acces the word through network.
+		
+5. Linux Folder Structure
+	
+6. Linux Basic cmds: 
+	
+		basic: 
+			cd, pwd, ls-listing, mv-rename,cp- copy, mkdir- create folder,touch-create file, rm-remove, rm -r - recursively delete/remove.
+		operations:
+			cat filename-content of file.
+			vim filename-edit file.
+			i will enable the insert mode.
+			esc+:wq saves the edited file.
+			
+		
+7. Linux root user and user level of access:
+	
+	Root: have all the permision to access 
+	user: needs to use the Sudo.
+
+8. User management in linux.
+	to check the users in the machine.
+		path: cd/etc/cat passwd
+	
+	create user :Sudo useradd vishwa / sudo adduser Vishwa(userfriendly cmd)
+		
+				 useradd : shell bcm the terminnal but when add user is used bash will be terminnal
+	
+	Switch User : su -xyz .
+	
+	
+	
+	
