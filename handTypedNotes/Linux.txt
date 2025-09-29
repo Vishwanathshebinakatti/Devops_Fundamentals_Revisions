@@ -12,9 +12,11 @@
 		1. User Application : example-> note++, nudi, installed application for user.
 		2. System Utilities : example-> Copy, move, open. inbuilt utils for small operartions
 		3. System Libraries : example-> Env libraries of the respective lang, example, C programming libraries like Print and all.
-		4. kernal			: example-> main operator, which maintain process, memory, network etc management handles the connection b/w user app, sys utilis &
+		4. kernal			: example-> main operator, which maintain process, memory, network etc management
+										 handles the connection b/w user app, sys utilis &
 										sys libraries to next layer that is Hardware and decide how much cpu n memo.
-		5. Hardware			: example-> Ram as process, hardisk as memory and network and other things are handles here in the hardware based on above layers
+		5. Hardware			: example-> Ram as process, hardisk as memory and network and 
+										other things are handles here in the hardware based on above layers.
 		
 
 3. Private and Public Key to access the Linux (Secure way of access)
@@ -72,7 +74,23 @@
 				 useradd : shell bcm the terminnal but when add user is used bash will be terminnal
 	
 	Switch User : su -xyz .
+
+	sudo password user(xyz) - change the password of the user cmd
+	sudo usermod -l abc(new) xyz(current) - chage the user name cmd (-l stands for login name)
 	
 	
+9. Adde user should be able to access using own private key:
 	
+	ssh-keygen
+	Location by default (Home/xyz/.ssh/id_****)
+	cd Location(Home/xyz/.ssh/id_****)
+	id_***.pub , id_***
+	cat id_***.pub , cp content, save it in local and later used for save it in linux 
+	No authorized key, 
+	so vi authorized_keys
+	paste the content of the public key in this authorized key so that will be used along with private key.
+	chmod 600 ~/.ssh/authorized_keys (give the access to xyz exicution permision)
+	cat id_*** copy and save it as private key
+
+
 	
