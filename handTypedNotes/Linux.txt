@@ -131,3 +131,11 @@
 	sudo chown    :xyz file
 	sudo chown xyz:    file
 
+13. package management in linux
+	headless- installing thing dont have the UI.
+
+	sudo apt update
+	sudo apt remove
+	sudo apt autoremove
+	sudo snap install terraform --classic
+	
