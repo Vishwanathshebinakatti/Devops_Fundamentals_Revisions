@@ -113,4 +113,21 @@
 		sudo usermod -aG docker $user 
 
 
-	
+11. Permision :
+	dir	onwer, group , other
+	d 	rwx    rwx      rwx
+	-	rwx    rwx      rwx
+		421
+
+	chmod -R o+rwx folder (folder level permisions)
+	chmod -R 777 folder
+	chmod -R 600 folder
+	chmod -R 760 folder
+	chmod 777 file.txt
+
+12. Change the owner ship permision
+
+	sudo chown xyz:xyz file
+	sudo chown    :xyz file
+	sudo chown xyz:    file
+
