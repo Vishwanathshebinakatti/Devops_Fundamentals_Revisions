@@ -91,7 +91,7 @@
 	so vi authorized_keys
 	paste the content of the public key in this authorized key so that will be used along with private key.
 	chmod 600 ~/.ssh/authorized_keys (give the access to xyz exicution permision)
-	cat id_*** copy and save it as private key
+	cat id_*** copy and save it as private key AS .PEM file
 
 
 10. Group Management :
@@ -135,7 +135,13 @@
 	headless- installing thing dont have the UI.
 
 	sudo apt update
-	sudo apt remove
+	sudo apt remove *****
 	sudo apt autoremove
 	sudo snap install terraform --classic
-	
+
+14. Proccess Management
+
+	ps,ps aux, top, 
+	cntl+z , fg %sleep ,  ps -aux |grep word
+	kill PID
+
