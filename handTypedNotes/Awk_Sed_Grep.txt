@@ -1,0 +1,64 @@
+awk, sed, grep are the text proccessing commands
+
+1.Awk
+
+    $0-entire line, $1-first word , $2-second word of the line.
+
+    general syntax-> awk 'pattern {action}' file
+            
+            Vishwa  30 ltts     3years
+            PP      28 ltts     1years
+            AS      30 ltimt    2YEARS
+
+
+
+            ex-> awk '{print $1, $4} file O/p-Vishwa 3years
+            ex-> awk '$3 === LTIMT {print $1} file o/p- AS
+            ex-> awk  '{sum += $4} END {print "total salary:",sum} file  o/p-6
+            sum += $4, awk converts the string to a number by taking the number at the start of the string.
+            ex-> awk '$2 > 30 {print $1,$2}' file o/p- vishwa 30
+
+2.grep 
+    is used to filter out something 
+
+    general syntax-> grep[option] 'pattern' file
+
+            Vishwa  30 ltts     manager     3 years
+            Vish s  30 ltts     manager     3 months
+            PP      28 ltts     dev         1 years
+            kk      25 ltts     dev         3 years
+            AS      30 ltimt    test        4 years
+
+
+            ex-> grep 'dev' file o/p- pp & kk both lines will printed 
+            ex-> grep -v 'dev' file o/p - universe the above output by using -v
+            ex-> grep -n 'dev' file o/p-  same as 1st but this time print with line number like dev at 2nd and 3rd
+            ex-> grep -c 'dev' file o/p-  count of the dev in the file here it is 2
+            ex-> grep -E 'dev|test' file o/p lines with 1 or both keyword
+            ex-> grep -r 'dev' ./*.file extension o/p-here ./*.ext means check all the files in this directory
+            ex-> grep -w 'man' file o/p be nothing as manager is not extact match of the word man , becuase we used -w
+            ex-> grep '^V' file o/p- starting with letter V.
+            ex-> grep 'months$' file o/p-ending with months.
+
+3.sed 
+
+    general syntax-> sed 'command' file. (filter and substitute)
+
+            Vishwa  30 ltts     manager     3 years
+            Vish s  30 ltts     manager     3 months
+            PP      28 ltts     dev         1 years
+            kk      25 ltts     dev         3 years
+            AS      30 ltimt    test        4 years
+
+            ex-> sed 'senior/manager' file o/p - manager will be replaced by senior
+            ex-> sed 'M/manager/Ig' file o/p -replace the m with M i.e Insensitive Global level :-> Ig
+            ex-> sed 'p' file o/p- printing the lines
+            ex-> sed -n '3p' file o/p- just print the 3rd line.
+            ex-> sed -n '2,4p' file o/p- just print  lines from 2nd to 4th.
+            ex-> sed '1i/ Name Age Company Position Experience' file o/p- file variables names.
+            ex-> sed '3a/ newEmp 21 ltts newP fresher'file  o/p append this line into the file.
+
+
+
+
+
