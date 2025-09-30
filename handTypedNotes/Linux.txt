@@ -39,7 +39,7 @@
 	HERE BASICALLY LINUX ACCES/EXPOSE WLL BE SECURED BASED ON THE "INBOUND AND OUTBOUND " RULES
 	
 	Outbound rules	: 0.0.0.0/0
-	Inbound rules 	: 22-ssh, 80-http ,443-https, 3000 to 10000- ,ost of the devops work : These are the port
+	Inbound rules 	: 22-ssh, 80-http ,443-https, 3000 to 10000- Most of the devops work : These are the port
 	Source 			: From where the access is allowed ? for ex : vpn like that
 	
 	Access :
@@ -127,6 +127,7 @@
 
 12. Change the owner ship permision
 
+	sudo chown user:group file
 	sudo chown xyz:xyz file
 	sudo chown    :xyz file
 	sudo chown xyz:    file
