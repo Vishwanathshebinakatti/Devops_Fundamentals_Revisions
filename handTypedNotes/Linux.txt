@@ -127,6 +127,7 @@
 
 12. Change the owner ship permision
 
+	sudo chown user:group file
 	sudo chown xyz:xyz file
 	sudo chown    :xyz file
 	sudo chown xyz:    file
