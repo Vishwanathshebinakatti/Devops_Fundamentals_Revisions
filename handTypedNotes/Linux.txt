@@ -146,3 +146,17 @@
 	cntl+z , fg %sleep ,  ps -aux |grep word
 	kill PID
 
+15. Add User to Sudo`s list
+	why? 
+		Newly added user dont have the sudo power to unleash that we are suppose to add newuser to sudoer list
+
+	su -ubtuntu
+	sudo visudo - editing mode of the sudoer list
+	username		ALL=(ALL:ALL) ALL - add this at privilege specification
+	cntrl+o - write out
+	su -username
+	try any commands with sudo 
+
+	newly added user asks passwd again and again then skip the password :
+	username ALL=(ALL) NOPASSWD: /sbin./reboot
+	
