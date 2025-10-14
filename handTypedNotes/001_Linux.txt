@@ -5,7 +5,7 @@
 		Secure- based on diff user can be used by role wise and cleverly particened.
 	Cons:
 		Not Ease of use-every time its all about commands.
-
+not: linux with some of the flavours : which provide better accessability,security and much more like ex-red hat.
 2. Linux Architecture:
 	
 	layer of Linux Architecture
