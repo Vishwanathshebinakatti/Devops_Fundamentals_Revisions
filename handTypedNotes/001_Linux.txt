@@ -4,7 +4,7 @@
 		level of access-check the process & tasks and start stop.
 		Secure- based on diff user can be used by role wise and cleverly particened.
 	Cons:
-		Not Ease of use.
+		Not Ease of use-every time its all about commands.
 
 2. Linux Architecture:
 	
