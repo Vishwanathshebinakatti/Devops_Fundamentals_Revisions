@@ -1,6 +1,7 @@
 1. Why Linux?
 	Pros:
 		Open source.
+		level of access.
 		Secure.
 	Cons:
 		Not Ease of use.
