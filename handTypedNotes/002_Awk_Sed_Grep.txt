@@ -43,7 +43,7 @@ awk, sed, grep are the text proccessing commands
 3.sed 
 
     general syntax-> sed 'command' file. (filter and substitute) 
-    
+    used for string/text manupulator
     string edit(sed)
 
             Vishwa  30 ltts     manager     3 years
@@ -59,6 +59,23 @@ awk, sed, grep are the text proccessing commands
             ex-> sed -n '2,4p' file o/p- just print  lines from 2nd to 4th.
             ex-> sed '1i/ Name Age Company Position Experience' file o/p- file variables names.
             ex-> sed '3a/ newEmp 21 ltts newP fresher'file  o/p append this line into the file.
+
+4.examples
+
+    lets find the logs in the cd/var/log 
+        - ls
+        - here we will be having syslog
+        - cat syslog 
+        - grep "error" syslog
+        - grep -n "error" syslog
+        - grep -e "404" "failed" /var/log/syslog
+
+    lets replace the apple with banana in 1.txt
+        - sed 's/apple/banana/g' 1.txt
+
+    lets delete the line which have the keyword banana
+        - sed '/banana/d' 1.txt
+    
 
 
 
