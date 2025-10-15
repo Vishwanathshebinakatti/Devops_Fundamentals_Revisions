@@ -76,7 +76,7 @@ note: linux with some of the flavours : which provide better accessability,secur
 	
 	Switch User : su -xyz .
 
-	sudo password user(xyz) - change the password of the user cmd
+	sudo passwd user(xyz) - change the password of the user cmd
 	sudo usermod -l abc(new) xyz(current) - chage the user name cmd (-l stands for login name)
 	sudo userdel abc
 	
