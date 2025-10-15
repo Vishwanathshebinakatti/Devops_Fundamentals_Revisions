@@ -1,10 +1,11 @@
 1. Why Linux?
 	Pros:
-		Open source.
-		Secure.
+		Open source- free for utilization.
+		level of access-check the process & tasks and start stop.
+		Secure- based on diff user can be used by role wise and cleverly particened.
 	Cons:
-		Not Ease of use.
-
+		Not Ease of use-every time its all about commands.
+note: linux with some of the flavours : which provide better accessability,security and much more like ex-red hat.
 2. Linux Architecture:
 	
 	layer of Linux Architecture
@@ -75,7 +76,7 @@
 	
 	Switch User : su -xyz .
 
-	sudo password user(xyz) - change the password of the user cmd
+	sudo passwd user(xyz) - change the password of the user cmd
 	sudo usermod -l abc(new) xyz(current) - chage the user name cmd (-l stands for login name)
 	sudo userdel abc
 	
@@ -100,7 +101,7 @@
 
 	sudo groupadd abc -create
 	sudo groupmod abc - modify
-	sudo usermod -aG group $user - append the user to group 
+	sudo usermod -aG group $user - append the user to group * note:newgrp docker (to restart the it so the changes are applied) * id user(to get the details)
 	sudo groupdel abc - delete
 
 	to manage the Group :
@@ -119,7 +120,7 @@
 	-	rwx    rwx      rwx
 		421
 
-	chmod -R o+rwx folder (folder level permisions)
+	chmod -R o+rwx folder (folder level permisions)[O here means other,g means group, u means user ]
 	chmod -R 777 folder
 	chmod -R 600 folder
 	chmod -R 760 folder
