@@ -19,7 +19,7 @@ awk, sed, grep are the text proccessing commands
             ex-> awk '$2 > 30 {print $1,$2}' file o/p- vishwa 30
 
 2.grep 
-    is used to filter out something , mostly with respect to word like starting with or ending with.
+    is used to filter/search out something , mostly with respect to word like starting with or ending with.
 
     general syntax-> grep[option] 'pattern' file
 
@@ -42,7 +42,9 @@ awk, sed, grep are the text proccessing commands
 
 3.sed 
 
-    general syntax-> sed 'command' file. (filter and substitute)
+    general syntax-> sed 'command' file. (filter and substitute) 
+    
+    string edit(sed)
 
             Vishwa  30 ltts     manager     3 years
             Vish s  30 ltts     manager     3 months
