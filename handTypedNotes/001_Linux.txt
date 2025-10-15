@@ -101,7 +101,7 @@ note: linux with some of the flavours : which provide better accessability,secur
 
 	sudo groupadd abc -create
 	sudo groupmod abc - modify
-	sudo usermod -aG group $user - append the user to group * note:newgrp docker (to restart the it so the changes are applied) 
+	sudo usermod -aG group $user - append the user to group * note:newgrp docker (to restart the it so the changes are applied) * id user(details)
 	sudo groupdel abc - delete
 
 	to manage the Group :
