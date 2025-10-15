@@ -120,7 +120,7 @@ note: linux with some of the flavours : which provide better accessability,secur
 	-	rwx    rwx      rwx
 		421
 
-	chmod -R o+rwx folder (folder level permisions)[O here means other,g menas group, u means user ]
+	chmod -R o+rwx folder (folder level permisions)[O here means other,g means group, u means user ]
 	chmod -R 777 folder
 	chmod -R 600 folder
 	chmod -R 760 folder
