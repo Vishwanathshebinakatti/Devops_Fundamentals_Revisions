@@ -46,7 +46,7 @@ note: linux with some of the flavours : which provide better accessability,secur
 	Access :
 		Public_IP.Ports : To access the applications installed in the linux.
 	expose :
-		Linux will acces the word through network.
+		Linux will acces the world through network.
 		
 5. Linux Folder Structure
 	

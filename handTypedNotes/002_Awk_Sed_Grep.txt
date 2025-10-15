@@ -19,7 +19,7 @@ awk, sed, grep are the text proccessing commands
             ex-> awk '$2 > 30 {print $1,$2}' file o/p- vishwa 30
 
 2.grep 
-    is used to filter out something 
+    is used to filter out something , mostly with respect to word like starting with or ending with.
 
     general syntax-> grep[option] 'pattern' file
 
