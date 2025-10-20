@@ -1,9 +1,9 @@
-| OSI Layer    | Cricket Action                  | Technical Function                              |
-| ------------ | ------------------------------- | ----------------------------------------------- |
-| Application  | Virat takes guard               | User-level services / app protocols             |
-| Presentation | Adjusts stance                  | Data translation, encryption, compression       |
-| Session      | Nods to partner / sets rhythm   | Session establishment, maintenance, termination |
-| Transport    | Drives ball safely              | Reliable delivery, segmentation, error checking |
-| Network      | Fielder plots throw             | Routing, addressing, packet forwarding          |
-| Data Link    | Ball threads past local players | Local delivery, error detection, MAC addressing |
-| Physical     | Ball hits boundary rope         | Physical signal transmission                    |
+| OSI Layer    | Technical Function                              
+| ------------ | ------------------------------------------------|
+| Application  | User-level services / app protocols             |
+| Presentation | Data translation, encryption, compression       |
+| Session      | Session establishment, maintenance, termination |
+| Transport    | Reliable delivery, segmentation, error checking |-> tcp(slow but transper the full data used in ex;- mail), udp(fast but transfer not full ex; games data)
+| Network      | Routing, addressing, packet forwarding          |
+| Data Link    | Local delivery, error detection, MAC addressing |
+| Physical     | Physical signal transmission                    |
