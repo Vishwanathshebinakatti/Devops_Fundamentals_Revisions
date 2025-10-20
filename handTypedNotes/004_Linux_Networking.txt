@@ -25,3 +25,4 @@ Networking cmds
 12. hostname
 13. telnet ip 22 -> check the vm enabled the port or not
 14. sudo lsof -i :8080 -> which application using the particular port 8080.
+15. sudo su -> kill pid -> then you can kill the application runing.
