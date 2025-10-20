@@ -2,7 +2,9 @@
 2.presentation layer :
 3.session layer      :
 4.transport layer    :
-5.internet layer     :
-6.data link layer    :
+
+5.internet layer/Network     : source to destination packaged data is sent with logical identification that is ip adress this will be handled by the network layer.
+
+6.data link layer    : Manage the node to node transmision of data is likey taken care by data link layer. role is reliable link to trnasfer the data over physical layer not                         missed and of the data.
 
 7.physical layer     : Actual physical devices which will transmits the raw bits steams unprocessed data over physical meduium like coper cable or fiber cable.
