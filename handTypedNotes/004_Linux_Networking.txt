@@ -5,5 +5,5 @@
 | Session      | Session establishment, maintenance, termination |
 | Transport    | Reliable delivery, segmentation, error checking |-> tcp(slow but transper the full data used in ex;- mail), udp(fast but transfer not full ex; games data)
 | Network      | Routing, addressing, packet forwarding          |
-| Data Link    | Local delivery, error detection, MAC addressing |
+| Data Link    | Local delivery, error detection, MAC addressing |->Check the complete data transfer if anything is missing or what b/w "nw n ph"
 | Physical     | Physical signal transmission                    |
