@@ -11,6 +11,7 @@
 
 
 Networking cmds
+
 1. IP CMDS- ip addr show 
 2. ifconfig
 3. ping -> website/vm -> just to check or confirm its up and running
@@ -26,3 +27,9 @@ Networking cmds
 13. telnet ip 22 -> check the vm enabled the port or not
 14. sudo lsof -i :8080 -> which application using the particular port 8080.
 15. sudo su -> kill pid -> then you can kill the application runing.
+16. mvn package -> mvn not installed or if you see "not found error" then its not installed
+17. not enough space -> du -sh -> occupied size
+18. df -kh  -> will show the detailed space occupied by the application detailed view.
+19. permision denied -> its because of "service" or "filefolder" permisions provided ex-> docker is permision denied is kind of service issue.(user -aG).
+
+
