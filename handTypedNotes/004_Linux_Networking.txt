@@ -23,3 +23,4 @@ Networking cmds
 10. sudo iptable -A INPUT -p tcp --dport 22 -j ACCEPT -> accept the data from this 
 11. sudo iptable -A INPUT -p tcp --dport 22 -j DROP -> will drop.
 12. hostname
+13. telnet ip 22 -> check the vm enabled the port or not
