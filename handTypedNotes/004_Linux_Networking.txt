@@ -24,3 +24,4 @@ Networking cmds
 11. sudo iptable -A INPUT -p tcp --dport 22 -j DROP -> will drop.
 12. hostname
 13. telnet ip 22 -> check the vm enabled the port or not
+14. sudo lsof -i :8080 -> which application using the particular port 8080.
