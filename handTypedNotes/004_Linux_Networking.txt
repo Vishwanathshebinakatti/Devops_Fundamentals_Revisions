@@ -17,3 +17,9 @@ Networking cmds
 4. traceroute google.com -> trace the route that is hop along with time its taken 
 5. netstat -tuln -> protocall has been used
 6. ss -tuln (alternative to netstat -tuln ) which will gives the protocalls in detials list
+7. route -n ->  gives the details of the data packates are travelling.
+8. dig google.com -> cmd domain name to ip address
+9. nslookup google.com-> alternative to dig cmd as nslookup shows the easy readable format that domains ip adress.
+10. sudo iptable -A INPUT -p tcp --dport 22 -j ACCEPT -> accept the data from this 
+11. sudo iptable -A INPUT -p tcp --dport 22 -j DROP -> will drop.
+12. hostname
