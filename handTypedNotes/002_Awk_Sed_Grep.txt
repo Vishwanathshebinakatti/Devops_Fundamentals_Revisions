@@ -32,7 +32,7 @@ awk, sed, grep are the text proccessing commands
 
             ex-> grep 'dev' file o/p- pp & kk both lines will printed 
             ex-> grep -i 'dev' file o/p- pp & kk both lines will printed but here -i means its case insensitive. 
-            ex-> grep -v 'dev' file o/p - universe the above output by using -v
+            ex-> grep -v 'dev' file o/p - universe the above output by using -v that is its will print everything else leaving the dev
             ex-> grep -n 'dev' file o/p-  same as 1st but this time print with line number like dev at 2nd and 3rd
             ex-> grep -c 'dev' file o/p-  count of the dev in the file here it is 2
             ex-> grep -E 'dev|test' file o/p lines with 1 or both keyword
