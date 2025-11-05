@@ -14,7 +14,7 @@ awk, sed, grep are the text proccessing commands
 
             ex-> awk '{print $1, $4} file O/p-Vishwa 3years
             ex-> awk '$3 === LTIMT {print $1} file o/p- AS
-            ex-> awk  '{sum += $4} END {print "total salary:",sum} file  o/p-6
+            ex-> awk  '{sum += $4} END {print "total Exp:",sum} file  o/p-6
             sum += $4, awk converts the string to a number by taking the number at the start of the string.
             ex-> awk '$2 > 30 {print $1,$2}' file o/p- vishwa 30
 
