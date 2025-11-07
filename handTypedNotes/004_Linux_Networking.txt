@@ -9,6 +9,25 @@
 | Physical     | Physical signal transmission                    |
 
 
++----------------+---------------------------------------+-------------------------------------------------------------+----------------------+
+| OSI Layer      | What It Does                          | What Happens to "hello world"                               | PDU (Data Unit)      
++----------------+---------------------------------------+-------------------------------------------------------------+----------------------+
+| 7. Application | User interacts with software.         | You type the command in your terminal/SSH.                  | Data 
+|
+| 6. Presentation| Encoding, encryption, formatting.     | Text → UTF-8 and encrypted in SSH.                          | Data 
+|
+| 5. Session     | Maintains login/session.              | Your SSH session manages the terminal link.                 | Data 
+|
+| 4. Transport   | Reliable delivery (TCP).              | Data is split into TCP segments and delivered reliably.     | Segment
+|
+| 3. Network     | Routing using IP addresses.           | Adds Source & Destination IP for routing.                   | Packet 
+|
+| 2. Data Link   | Uses MAC addressing (LAN/Wi-Fi).      | Frames are created with Source & Destination MAC.           | Frame  
+|
+| 1. Physical    | Sends raw bits over the medium.       | Bits travel as electrical signals or radio waves.           | Bits                 
++----------------+---------------------------------------+-------------------------------------------------------------+----------------------+
+
+
 
 Networking cmds
 
