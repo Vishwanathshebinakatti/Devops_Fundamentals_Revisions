@@ -27,11 +27,11 @@
 | 1. Physical    | Sends raw bits over the medium.       | Bits travel as electrical signals or radio waves.           | Bits                 
 +----------------+---------------------------------------+-------------------------------------------------------------+----------------------+
 
-All People Seem To Need Data Processing 
+All People Seem To Need Data Processing. 
 A  P   S   T  N   D   P
 7  6   5   4  3   2   1
 
-Do Some People Fear Birthdays?
+Do Some People Fear Birthdays??
 Data → Segment → Packet → Frame → Bits
 
 
